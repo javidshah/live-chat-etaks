@@ -1,0 +1,315 @@
+# Translation for zh_CN - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "在线客服"
+
+msgid "Online Support"
+msgstr "在线支持"
+
+msgid "Hello! How can we help you today?"
+msgstr "您好！请问有什么可以帮助您的？"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "感谢您的咨询！请留下您的姓名和联系方式（邮箱或电话），我们将尽快与您取得联系。"
+
+msgid "You"
+msgstr "您"
+
+msgid "Support"
+msgstr "客服"
+
+msgid "Open Live Chat"
+msgstr "打开在线客服"
+
+msgid "Close Live Chat"
+msgstr "关闭在线客服"
+
+msgid "is typing..."
+msgstr "正在输入..."
+
+msgid "Type your message..."
+msgstr "输入消息..."
+
+msgid "Message"
+msgstr "消息"
+
+msgid "Send Message"
+msgstr "发送消息"
+
+msgid "Live Chat"
+msgstr "在线客服"
+
+msgid "Conversations"
+msgstr "对话列表"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+msgid "Live Chat Dashboard"
+msgstr "在线客服仪表盘"
+
+msgid "Active"
+msgstr "活跃对话"
+
+msgid "Archived"
+msgstr "已归档"
+
+msgid "Date:"
+msgstr "日期："
+
+msgid "All Dates"
+msgstr "所有日期"
+
+msgid "Search conversations..."
+msgstr "搜索对话..."
+
+msgid "User: "
+msgstr "访客："
+
+msgid "Today"
+msgstr "今天"
+
+msgid "No active conversations."
+msgstr "暂无活跃对话。"
+
+msgid "No archived conversations."
+msgstr "暂无归档对话。"
+
+msgid "Select a conversation"
+msgstr "请选择一个对话"
+
+msgid "Select a Conversation"
+msgstr "请选择一个对话"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "从左侧选择对话以查看聊天记录并回复访客。"
+
+msgid "No active conversations"
+msgstr "暂无活跃对话"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "访客发送的新消息将在此实时显示。"
+
+msgid "No archived conversations"
+msgstr "暂无归档对话"
+
+msgid "Archived conversations will appear here."
+msgstr "已归档的历史对话将在此显示。"
+
+msgid "Archive"
+msgstr "归档"
+
+msgid "Archive Conversation"
+msgstr "归档此对话"
+
+msgid "Type your reply..."
+msgstr "输入您的回复..."
+
+msgid "Send"
+msgstr "发送"
+
+msgid "Live Chat Settings"
+msgstr "在线客服设置"
+
+msgid "Settings saved successfully!"
+msgstr "设置保存成功！"
+
+msgid "Colors & Theme"
+msgstr "颜色与主题"
+
+msgid "Brand Primary Color:"
+msgstr "品牌主题颜色："
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "用于浮动按钮、顶部栏和发送按钮。"
+
+msgid "Color Presets:"
+msgstr "预设颜色："
+
+msgid "Classic Red"
+msgstr "经典红"
+
+msgid "WhatsApp Green"
+msgstr "WhatsApp 绿"
+
+msgid "Facebook Blue"
+msgstr "Facebook 蓝"
+
+msgid "Dark / Minimalist"
+msgstr "暗黑 / 极简"
+
+msgid "Purple"
+msgstr "紫色"
+
+msgid "Sky Blue"
+msgstr "天蓝"
+
+msgid "Icons & Avatars"
+msgstr "图标与头像"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "浮动客服按钮图标 (FAB)："
+
+msgid "FAB preview"
+msgstr "按钮图标预览"
+
+msgid "Select / Upload Image"
+msgstr "选择 / 上传图片"
+
+msgid "Reset to Default"
+msgstr "恢复默认"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "浮动按钮显示的图标。建议使用透明 PNG。"
+
+msgid "Chat Header Profile Avatar:"
+msgstr "客服窗口头像："
+
+msgid "Avatar preview"
+msgstr "头像预览"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "聊天窗口顶部客服名称旁显示的头像。"
+
+msgid "Texts & Messages"
+msgstr "文字与消息设置"
+
+msgid "Plugin & Widget Language:"
+msgstr "插件与客服语言："
+
+msgid "Auto (Site Language)"
+msgstr "自动 (网站默认语言)"
+
+msgid "Load Language Defaults"
+msgstr "应用该语言预设"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "自动填充所选语言的预设标题、欢迎语与自动回复。"
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "设置整个插件的语言，包括管理后台和前台聊天组件。"
+
+msgid "Chat Title:"
+msgstr "客服标题："
+
+msgid "Subtitle / Online Status:"
+msgstr "副标题 / 在线状态："
+
+msgid "Welcome Message (on first open):"
+msgstr "首次打开欢迎语："
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "首次消息自动回复："
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "访客首次发送消息后自动发送以收集联系方式。"
+
+msgid "System Health & Diagnostics"
+msgstr "系统运行状态与诊断"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "检查数据库表状态并修复潜在问题。"
+
+msgid "Database Table:"
+msgstr "数据库表："
+
+msgid "Table missing"
+msgstr "数据表不存在"
+
+msgid "PHP Version:"
+msgstr "PHP 版本："
+
+msgid "WordPress Version:"
+msgstr "WordPress 版本："
+
+msgid "Asset Files:"
+msgstr "静态资源："
+
+msgid "Loaded"
+msgstr "加载正常"
+
+msgid "Some asset files are missing"
+msgstr "部分静态文件缺失"
+
+msgid "Repair Database Table"
+msgstr "一键修复数据库表"
+
+msgid "Save Settings"
+msgstr "保存设置"
+
+msgid "Select or Upload Image"
+msgstr "选择或上传图片"
+
+msgid "Use this image"
+msgstr "使用此图片"
+
+msgid "Unauthorized."
+msgstr "未经授权。"
+
+msgid "Invalid message parameters."
+msgstr "消息参数无效。"
+
+msgid "Failed to save message."
+msgstr "保存消息失败。"
+
+msgid "Invalid security token."
+msgstr "安全令牌无效。"
+
+msgid "Session ID required."
+msgstr "会话 ID 不能为空。"
+
+msgid "Database error."
+msgstr "数据库错误。"
+
+msgid "Today · User: "
+msgstr "今天 · 访客："
+
+msgid "User"
+msgstr "访客"
+
+msgid "Please wait..."
+msgstr "请稍候..."
+
+msgid "Please select a conversation first."
+msgstr "请先选择一个对话。"
+
+msgid "Awaiting reply..."
+msgstr "等待回复..."
+
+msgid "No conversations found on this date."
+msgstr "该日期没有对话。"
+
+msgid "Database table repaired and verified successfully!"
+msgstr "数据库表修复成功！"
+
+msgid "Failed to repair table."
+msgstr "修复数据表失败。"
+
+msgid "Working..."
+msgstr "处理中..."
+
+msgid "Recreating database table..."
+msgstr "正在重建数据表..."
+
+msgid "Error sending message."
+msgstr "发送消息时出错。"
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "Caspian Live Chat 已升级为 Live Chat - etaks。"

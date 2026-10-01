@@ -1,0 +1,387 @@
+# Copyright (C) 2026 etaks.az | Javid Shahmuradov
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-30T19:30:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Antigravity\n"
+"X-Domain: live-chat-etaks\n"
+
+#: live-chat-etaks.php
+msgid "Active"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "All Dates"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Archive"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Archived"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Archived conversations will appear here."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Asset Files:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Auto (Site Language)"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Avatar image displayed in the header next to the support title."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Avatar preview"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Awaiting reply..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Brand Primary Color:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Chat Header Profile Avatar:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Chat Title:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Classic Red"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Close Live Chat"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Color Presets:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Colors & Theme"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Conversations"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Dark / Minimalist"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Database Table:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Database error."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Database table repaired and verified successfully!"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Date:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Error sending message."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "FAB preview"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Facebook Blue"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Failed to repair table."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Failed to save message."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Floating Chat Button Icon (FAB):"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Icons & Avatars"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Invalid message parameters."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Invalid security token."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Live Chat"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Live Chat Dashboard"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Live Chat Settings"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Load Language Defaults"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Loaded"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Message"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "New customer messages will appear here in real-time."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "No active conversations"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "No archived conversations"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "No conversations found on this date."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Open Live Chat"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "PHP Version:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Please select a conversation first."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Please wait..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Plugin & Widget Language:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Purple"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Recreating database table..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Repair Database Table"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Reset to Default"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Save Settings"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Search conversations..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Select / Upload Image"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Select a conversation"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Select or Upload Image"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Send"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Send Message"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Session ID required."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Settings"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Sky Blue"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Some asset files are missing"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Subtitle / Online Status:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Support"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "System Health & Diagnostics"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Table missing"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Texts & Messages"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Today"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Today · User: "
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Type your message..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Type your reply..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Unauthorized."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Use this image"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "User"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "User: "
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Welcome Message (on first open):"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "WhatsApp Green"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "WordPress Version:"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "Working..."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "You"
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: live-chat-etaks.php
+msgid "is typing..."
+msgstr ""

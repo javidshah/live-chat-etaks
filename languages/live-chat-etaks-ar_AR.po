@@ -1,0 +1,315 @@
+# Translation for ar - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "الدعم المباشر"
+
+msgid "Online Support"
+msgstr "الدعم متصل الآن"
+
+msgid "Hello! How can we help you today?"
+msgstr "مرحباً! كيف يمكننا مساعدتك اليوم؟"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "شكراً لتواصلك معنا! يرجى ترك اسمك وبيانات الاتصال الخاصة بك (البريد الإلكتروني أو الهاتف)، وسيقوم فريقنا بالرد عليك قريباً."
+
+msgid "You"
+msgstr "أنت"
+
+msgid "Support"
+msgstr "الدعم"
+
+msgid "Open Live Chat"
+msgstr "فتح المحادثة المباشرة"
+
+msgid "Close Live Chat"
+msgstr "إغلاق المحادثة"
+
+msgid "is typing..."
+msgstr "يكتب الآن..."
+
+msgid "Type your message..."
+msgstr "اكتب رسالتك هنا..."
+
+msgid "Message"
+msgstr "رسالة"
+
+msgid "Send Message"
+msgstr "إرسال الرسالة"
+
+msgid "Live Chat"
+msgstr "الدعم المباشر"
+
+msgid "Conversations"
+msgstr "المحادثات"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك الصلاحيات الكافية للوصول إلى هذه الصفحة."
+
+msgid "Live Chat Dashboard"
+msgstr "لوحة تحكم المحادثة المباشرة"
+
+msgid "Active"
+msgstr "النشطة"
+
+msgid "Archived"
+msgstr "المؤرشفة"
+
+msgid "Date:"
+msgstr "التاريخ:"
+
+msgid "All Dates"
+msgstr "جميع التواريخ"
+
+msgid "Search conversations..."
+msgstr "البحث في المحادثات..."
+
+msgid "User: "
+msgstr "المستخدم: "
+
+msgid "Today"
+msgstr "اليوم"
+
+msgid "No active conversations."
+msgstr "لا توجد محادثات نشطة."
+
+msgid "No archived conversations."
+msgstr "لا توجد محادثات مؤرشفة."
+
+msgid "Select a conversation"
+msgstr "اختر محادثة"
+
+msgid "Select a Conversation"
+msgstr "اختر محادثة"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "اختر محادثة من القائمة لعرض سجل الرسائل والرد."
+
+msgid "No active conversations"
+msgstr "لا توجد محادثات نشطة حالياً"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "ستظهر رسائل الزوار الجديدة هنا بشكل فوري."
+
+msgid "No archived conversations"
+msgstr "لا توجد محادثات مؤرشفة"
+
+msgid "Archived conversations will appear here."
+msgstr "المحادثات المؤرشفة تظهر هنا."
+
+msgid "Archive"
+msgstr "أرشفة"
+
+msgid "Archive Conversation"
+msgstr "أرشفة المحادثة"
+
+msgid "Type your reply..."
+msgstr "اكتب ردك هنا..."
+
+msgid "Send"
+msgstr "إرسال"
+
+msgid "Live Chat Settings"
+msgstr "إعدادات المحادثة المباشرة"
+
+msgid "Settings saved successfully!"
+msgstr "تم حفظ الإعدادات بنجاح!"
+
+msgid "Colors & Theme"
+msgstr "الألوان والمظهر"
+
+msgid "Brand Primary Color:"
+msgstr "اللون الرئيسي للعلامة التجارية:"
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "يستخدم لزر المحادثة العائم ورأس المحادثة وزر الإرسال."
+
+msgid "Color Presets:"
+msgstr "الألوان الجاهزة:"
+
+msgid "Classic Red"
+msgstr "أحمر كلاسيكي"
+
+msgid "WhatsApp Green"
+msgstr "أخضر واتساب"
+
+msgid "Facebook Blue"
+msgstr "أزرق فيسبوك"
+
+msgid "Dark / Minimalist"
+msgstr "داكن / بسيط"
+
+msgid "Purple"
+msgstr "بنفسجي"
+
+msgid "Sky Blue"
+msgstr "سماوي"
+
+msgid "Icons & Avatars"
+msgstr "الأيقونات والصور الرمزية"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "أيقونة زر المحادثة العائم:"
+
+msgid "FAB preview"
+msgstr "معاينة أيقونة الزر"
+
+msgid "Select / Upload Image"
+msgstr "اختيار / رفع صورة"
+
+msgid "Reset to Default"
+msgstr "استعادة الافتراضي"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "الأيقونة داخل زر المحادثة. يفضل استخدام PNG شفاف."
+
+msgid "Chat Header Profile Avatar:"
+msgstr "صورة الملف الشخصي في الرأس:"
+
+msgid "Avatar preview"
+msgstr "معاينة الصورة الرمزية"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "الصورة المعروضة في رأس المحادثة بجانب اسم الدعم."
+
+msgid "Texts & Messages"
+msgstr "النصوص والرسائل"
+
+msgid "Plugin & Widget Language:"
+msgstr "لغة الإضافة والنافذة:"
+
+msgid "Auto (Site Language)"
+msgstr "تلقائي (لغة الموقع)"
+
+msgid "Load Language Defaults"
+msgstr "تطبيق نصوص اللغة"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "تعبئة النصوص التلقائية باللغة المحددة."
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "يحدد لغة الإضافة بالكامل بما في ذلك لوحة التحكم ونافذة المحادثة."
+
+msgid "Chat Title:"
+msgstr "عنوان المحادثة:"
+
+msgid "Subtitle / Online Status:"
+msgstr "العنوان الفرعي / الحالة:"
+
+msgid "Welcome Message (on first open):"
+msgstr "رسالة الترحيب الأولى:"
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "الرد التلقائي الفوري:"
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "يتم إرساله تلقائياً للزائر الجديد لطلب بيانات التواصل."
+
+msgid "System Health & Diagnostics"
+msgstr "صحة النظام والتشخيص"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "التحقق من سلامة جدول قاعدة البيانات وإصلاح الأخطاء."
+
+msgid "Database Table:"
+msgstr "جدول قاعدة البيانات:"
+
+msgid "Table missing"
+msgstr "الجدول غير موجود"
+
+msgid "PHP Version:"
+msgstr "إصدار PHP:"
+
+msgid "WordPress Version:"
+msgstr "إصدار WordPress:"
+
+msgid "Asset Files:"
+msgstr "ملفات الموارد:"
+
+msgid "Loaded"
+msgstr "تم التحميل"
+
+msgid "Some asset files are missing"
+msgstr "بعض الملفات مفقودة"
+
+msgid "Repair Database Table"
+msgstr "إصلاح جدول قاعدة البيانات"
+
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+msgid "Select or Upload Image"
+msgstr "اختيار أو رفع صورة"
+
+msgid "Use this image"
+msgstr "استخدام هذه الصورة"
+
+msgid "Unauthorized."
+msgstr "غير مصرح."
+
+msgid "Invalid message parameters."
+msgstr "معلومات الرسالة غير صالحة."
+
+msgid "Failed to save message."
+msgstr "فشل حفظ الرسالة."
+
+msgid "Invalid security token."
+msgstr "رمز الأمان غير صالح."
+
+msgid "Session ID required."
+msgstr "معرف الجلسة مطلوب."
+
+msgid "Database error."
+msgstr "خطأ في قاعدة البيانات."
+
+msgid "Today · User: "
+msgstr "اليوم · المستخدم: "
+
+msgid "User"
+msgstr "المستخدم"
+
+msgid "Please wait..."
+msgstr "يرجى الانتظار..."
+
+msgid "Please select a conversation first."
+msgstr "يرجى اختيار محادثة أولاً."
+
+msgid "Awaiting reply..."
+msgstr "في انتظار الرد..."
+
+msgid "No conversations found on this date."
+msgstr "لم يتم العثور على محادثات في هذا التاريخ."
+
+msgid "Database table repaired and verified successfully!"
+msgstr "تم إصلاح جدول قاعدة البيانات والتحقق منه بنجاح!"
+
+msgid "Failed to repair table."
+msgstr "فشل إصلاح الجدول."
+
+msgid "Working..."
+msgstr "جارٍ التنفيذ..."
+
+msgid "Recreating database table..."
+msgstr "إعادة بناء جدول قاعدة البيانات..."
+
+msgid "Error sending message."
+msgstr "حدث خطأ أثناء إرسال الرسالة."
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "تمت ترقية Caspian Live Chat إلى Live Chat - etaks بنجاح."

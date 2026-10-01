@@ -1,0 +1,528 @@
+:root {
+    --slc-primary: #cc0000;
+    --slc-primary-dark: #a30000;
+    --slc-primary-rgba: rgba(204, 0, 0, 0.4);
+    --slc-primary-light-rgba: rgba(204, 0, 0, 0.35);
+}
+
+/* ===== FLOATING WIDGET CONTAINER & SPEED DIAL ===== */
+#slc-widget-wrap {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999997;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    pointer-events: none;
+}
+#slc-widget-wrap > * {
+    pointer-events: auto;
+}
+
+/* Speed Dial items container */
+#slc-speed-dial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    margin-bottom: 12px;
+    transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#slc-speed-dial.slc-speed-dial-hidden {
+    opacity: 0;
+    transform: translateY(16px) scale(0.85);
+    pointer-events: none;
+    visibility: hidden;
+}
+#slc-speed-dial.slc-speed-dial-open {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    visibility: visible;
+}
+
+/* Individual Row (Label + Circle Button) */
+.slc-dial-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Dial Button Label */
+.slc-dial-label {
+    background: #ffffff;
+    color: #1e293b;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.14);
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+#slc-speed-dial.slc-speed-dial-open .slc-dial-label {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Dial Circular Button */
+.slc-dial-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+    text-decoration: none;
+    padding: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.slc-dial-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+.slc-dial-btn:active {
+    transform: scale(0.95);
+}
+
+/* WhatsApp Dial Button */
+.slc-dial-btn.slc-dial-wa {
+    background-color: #25D366;
+}
+.slc-dial-btn.slc-dial-wa:hover {
+    background-color: #128C7E;
+}
+.slc-dial-btn.slc-dial-wa svg {
+    display: block;
+    width: 28px;
+    height: 28px;
+    fill: #ffffff;
+}
+
+/* Live Chat (etaks) Dial Button */
+.slc-dial-btn.slc-dial-chat {
+    background-color: var(--slc-chat-dial-color, var(--slc-primary, #7c3aed));
+}
+.slc-dial-btn.slc-dial-chat:hover {
+    background-color: var(--slc-chat-dial-dark, var(--slc-primary-dark, #632bbd));
+}
+.slc-dial-btn.slc-dial-chat img {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+}
+
+/* ===== MAIN TRIGGER FAB ===== */
+#slc-chat-fab {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: var(--slc-primary, #cc0000);
+    border-radius: 50%;
+    box-shadow: 0 4px 16px var(--slc-primary-rgba, rgba(204,0,0,0.4));
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+}
+/* Spinning ring animation */
+#slc-chat-fab::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: var(--slc-primary, #cc0000);
+    border-right-color: var(--slc-primary-light-rgba, rgba(204,0,0,0.35));
+    animation: slc-spin 2s linear infinite;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+@keyframes slc-spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#slc-chat-fab:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 20px var(--slc-primary-rgba, rgba(204,0,0,0.55));
+}
+#slc-chat-fab.slc-fab-active {
+    background-color: #64748b !important;
+    box-shadow: 0 4px 16px rgba(100, 116, 139, 0.45) !important;
+}
+#slc-chat-fab.slc-fab-active::before {
+    opacity: 0;
+}
+
+/* Icon Holder & Morphing close X */
+.slc-fab-icon-holder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slc-fab-main-icon {
+    width: 54%;
+    height: 54%;
+    object-fit: contain;
+    position: absolute;
+    transition: transform 0.22s ease, opacity 0.22s ease;
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+    pointer-events: none;
+    display: block;
+}
+#slc-chat-fab.slc-fab-active .slc-fab-main-icon {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.4);
+}
+.slc-fab-close-x {
+    position: absolute;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 300;
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.4);
+    transition: transform 0.22s ease, opacity 0.22s ease;
+    pointer-events: none;
+    font-family: Arial, sans-serif;
+}
+#slc-chat-fab.slc-fab-active .slc-fab-close-x {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+
+/* ===== CHAT WINDOW ===== */
+#slc-chat-window {
+    position: fixed;
+    bottom: 96px;
+    right: 24px;
+    width: 340px;
+    height: 470px;
+    max-width: calc(100vw - 48px);
+    max-height: calc(100vh - 120px);
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    z-index: 999998;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    opacity: 0;
+    transform: translateY(15px) scale(0.97);
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+#slc-chat-window.slc-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+/* ===== HEADER ===== */
+#slc-chat-header {
+    background: var(--slc-primary, #cc0000);
+    color: #ffffff;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#slc-header-avatar {
+    width: 38px;
+    height: 38px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+#slc-header-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+#slc-header-info {
+    flex: 1;
+}
+#slc-header-name {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+}
+#slc-header-status {
+    font-size: 12px;
+    opacity: 0.85;
+    margin-top: 2px;
+    min-height: 16px;
+}
+#slc-chat-close {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    opacity: 0.85;
+}
+#slc-chat-close:hover { opacity: 1; }
+
+/* ===== BODY ===== */
+#slc-chat-body {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== MESSAGES ===== */
+.slc-msg-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    clear: both;
+}
+.slc-msg-wrapper.user { align-items: flex-end; }
+.slc-msg-wrapper.admin { align-items: flex-start; }
+
+.slc-msg { 
+    padding: 10px 14px; 
+    border-radius: 14px; 
+    max-width: 80%; 
+    font-size: 14px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+.slc-msg.user { 
+    background: var(--slc-primary, #cc0000); 
+    color: #ffffff;
+    border-bottom-right-radius: 3px;
+}
+.slc-msg.admin { 
+    background: #e8e8e8; 
+    color: #222222;
+    border-bottom-left-radius: 3px;
+}
+.slc-msg-time {
+    font-size: 11px;
+    color: #999;
+    margin-top: 4px;
+    padding: 0 4px;
+}
+
+/* ===== TYPING INDICATOR ===== */
+#slc-typing-indicator {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    color: #999;
+    font-size: 13px;
+}
+#slc-typing-indicator .slc-dots span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--slc-primary, #cc0000);
+    margin: 0 2px;
+    animation: slc-bounce 1.3s infinite ease-in-out;
+}
+#slc-typing-indicator .slc-dots span:nth-child(2) { animation-delay: 0.2s; }
+#slc-typing-indicator .slc-dots span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes slc-bounce {
+    0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+    40% { transform: scale(1); opacity: 1; }
+}
+
+/* ===== FOOTER INPUT ===== */
+#slc-chat-footer {
+    padding: 12px;
+    border-top: 1px solid #eeeeee;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#slc-message-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1.5px solid #ddd;
+    border-radius: 22px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+#slc-message-input:focus { border-color: var(--slc-primary, #cc0000); }
+#slc-send-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--slc-primary, #cc0000);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-shrink: 0;
+    transition: background 0.2s, transform 0.1s;
+}
+#slc-send-btn:hover { background: var(--slc-primary-dark, #a30000); }
+#slc-send-btn:active { transform: scale(0.93); }
+
+/* ===== RESPONSIVE BREAKPOINT ===== */
+/* ===== RESPONSIVE BREAKPOINT ===== */
+@media (max-width: 1024px) {
+    #slc-widget-wrap {
+        right: 20px;
+        bottom: 22px;
+    }
+    #slc-chat-fab {
+        width: 52px;
+        height: 52px;
+    }
+    #slc-chat-fab::before {
+        top: -5px;
+        left: -5px;
+        width: 62px;
+        height: 62px;
+    }
+    .slc-dial-btn {
+        width: 46px;
+        height: 46px;
+    }
+    #slc-chat-window {
+        right: 20px;
+        bottom: 84px;
+        width: calc(100vw - 40px);
+        max-width: 340px;
+        height: 440px;
+    }
+}
+
+/* ===== RTL SUPPORT (Arabic / Hebrew) ===== */
+#slc-widget-wrap.slc-rtl {
+    right: auto;
+    left: 24px;
+    align-items: flex-start;
+}
+#slc-widget-wrap.slc-rtl #slc-speed-dial {
+    align-items: flex-start;
+}
+#slc-widget-wrap.slc-rtl .slc-dial-row {
+    flex-direction: row-reverse;
+}
+#slc-widget-wrap.slc-rtl .slc-dial-label {
+    transform: translateX(-10px);
+}
+#slc-widget-wrap.slc-rtl #slc-speed-dial.slc-speed-dial-open .slc-dial-label {
+    transform: translateX(0);
+}
+#slc-chat-window.slc-rtl {
+    direction: rtl;
+    text-align: right;
+    right: auto;
+    left: 24px;
+}
+#slc-chat-window.slc-rtl #slc-chat-close {
+    margin-right: auto;
+    margin-left: 0;
+}
+#slc-chat-window.slc-rtl #slc-send-btn svg {
+    transform: scaleX(-1);
+}
+#slc-chat-window.slc-rtl .slc-msg-time {
+    text-align: right;
+}
+
+/* ===== WHATSAPP FLOATING MODE ===== */
+#slc-chat-fab.slc-wa-fab {
+    background-color: #25D366 !important;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.45) !important;
+}
+#slc-chat-fab.slc-wa-fab::before {
+    border-top-color: #25D366 !important;
+    border-right-color: rgba(37, 211, 102, 0.35) !important;
+}
+#slc-chat-fab.slc-wa-fab:hover {
+    background-color: #128C7E !important;
+    box-shadow: 0 6px 20px rgba(18, 140, 126, 0.55) !important;
+}
+.slc-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+.slc-wa-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    padding: 1px 7px;
+    font-size: 10.5px;
+    font-weight: 600;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.slc-wa-status-pill svg {
+    display: block;
+}
+#slc-chat-window.slc-whatsapp-mode #slc-chat-header {
+    background: linear-gradient(135deg, #075E54 0%, #128C7E 100%) !important;
+}
+#slc-chat-window.slc-whatsapp-mode #slc-send-btn {
+    background: #25D366 !important;
+}
+#slc-chat-window.slc-whatsapp-mode #slc-send-btn:hover {
+    background: #128C7E !important;
+}
+#slc-chat-window.slc-whatsapp-mode #slc-message-input:focus {
+    border-color: #25D366 !important;
+}
+#slc-chat-window.slc-whatsapp-mode .slc-msg.user {
+    background: #dcf8c6 !important;
+    color: #111111 !important;
+}
+#slc-chat-window.slc-whatsapp-mode #slc-typing-indicator .slc-dots span {
+    background: #25D366 !important;
+}
+
+

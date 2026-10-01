@@ -1,0 +1,315 @@
+# Translation for pt_PT - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "Suporte ao Vivo"
+
+msgid "Online Support"
+msgstr "Suporte online"
+
+msgid "Hello! How can we help you today?"
+msgstr "Olá! Como podemos ajudar hoje?"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "Obrigado pelo contacto! Por favor, indique o seu nome e dados de contacto (e-mail ou telefone), e a nossa equipa responderá em breve."
+
+msgid "You"
+msgstr "Você"
+
+msgid "Support"
+msgstr "Suporte"
+
+msgid "Open Live Chat"
+msgstr "Abrir chat ao vivo"
+
+msgid "Close Live Chat"
+msgstr "Fechar chat ao vivo"
+
+msgid "is typing..."
+msgstr "está a escrever..."
+
+msgid "Type your message..."
+msgstr "Digite a sua mensagem..."
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Send Message"
+msgstr "Enviar mensagem"
+
+msgid "Live Chat"
+msgstr "Chat ao Vivo"
+
+msgid "Conversations"
+msgstr "Conversas"
+
+msgid "Settings"
+msgstr "Definições"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Não tem permissões suficientes para aceder a esta página."
+
+msgid "Live Chat Dashboard"
+msgstr "Painel do Chat ao Vivo"
+
+msgid "Active"
+msgstr "Ativas"
+
+msgid "Archived"
+msgstr "Arquivadas"
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "All Dates"
+msgstr "Todas as datas"
+
+msgid "Search conversations..."
+msgstr "Pesquisar conversas..."
+
+msgid "User: "
+msgstr "Utilizador: "
+
+msgid "Today"
+msgstr "Hoje"
+
+msgid "No active conversations."
+msgstr "Sem conversas ativas."
+
+msgid "No archived conversations."
+msgstr "Sem conversas arquivadas."
+
+msgid "Select a conversation"
+msgstr "Selecione uma conversa"
+
+msgid "Select a Conversation"
+msgstr "Selecione uma conversa"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "Escolha uma conversa na barra lateral para ver o histórico e responder."
+
+msgid "No active conversations"
+msgstr "Nenhuma conversa ativa"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "As mensagens dos visitantes aparecerão aqui em tempo real."
+
+msgid "No archived conversations"
+msgstr "Nenhuma conversa arquivada"
+
+msgid "Archived conversations will appear here."
+msgstr "As conversas arquivadas serão exibidas aqui."
+
+msgid "Archive"
+msgstr "Arquivar"
+
+msgid "Archive Conversation"
+msgstr "Arquivar conversa"
+
+msgid "Type your reply..."
+msgstr "Escreva a sua resposta..."
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Live Chat Settings"
+msgstr "Definições do Chat ao Vivo"
+
+msgid "Settings saved successfully!"
+msgstr "Definições guardadas com sucesso!"
+
+msgid "Colors & Theme"
+msgstr "Cores e Tema"
+
+msgid "Brand Primary Color:"
+msgstr "Cor principal da marca:"
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "Utilizado para o botão flutuante, anel de pulsação, cabeçalho e botão de envio."
+
+msgid "Color Presets:"
+msgstr "Cores predefinidas:"
+
+msgid "Classic Red"
+msgstr "Vermelho clássico"
+
+msgid "WhatsApp Green"
+msgstr "Verde WhatsApp"
+
+msgid "Facebook Blue"
+msgstr "Azul Facebook"
+
+msgid "Dark / Minimalist"
+msgstr "Escuro / Minimalista"
+
+msgid "Purple"
+msgstr "Roxo"
+
+msgid "Sky Blue"
+msgstr "Azul celeste"
+
+msgid "Icons & Avatars"
+msgstr "Ícones e Avatares"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "Ícone do botão flutuante (FAB):"
+
+msgid "FAB preview"
+msgstr "Pré-visualização do FAB"
+
+msgid "Select / Upload Image"
+msgstr "Selecionar / Carregar imagem"
+
+msgid "Reset to Default"
+msgstr "Repor predefinição"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "Ícone no interior do botão flutuante. PNG transparente recomendado."
+
+msgid "Chat Header Profile Avatar:"
+msgstr "Avatar no cabeçalho do chat:"
+
+msgid "Avatar preview"
+msgstr "Pré-visualização do avatar"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "Imagem exibida no cabeçalho junto ao título do suporte."
+
+msgid "Texts & Messages"
+msgstr "Textos e Mensagens"
+
+msgid "Plugin & Widget Language:"
+msgstr "Idioma do plugin e chat:"
+
+msgid "Auto (Site Language)"
+msgstr "Automático (Idioma do site)"
+
+msgid "Load Language Defaults"
+msgstr "Carregar predefinições do idioma"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "Preenche automaticamente os textos padrão no idioma selecionado."
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "Define o idioma para todo o plugin."
+
+msgid "Chat Title:"
+msgstr "Título do chat:"
+
+msgid "Subtitle / Online Status:"
+msgstr "Subtítulo / Estado online:"
+
+msgid "Welcome Message (on first open):"
+msgstr "Mensagem de boas-vindas:"
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "Resposta automática inicial:"
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "Enviado automaticamente para pedir dados de contacto ao novo visitante."
+
+msgid "System Health & Diagnostics"
+msgstr "Estado do sistema e diagnósticos"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "Verifique a integridade da base de dados e resolva possíveis problemas."
+
+msgid "Database Table:"
+msgstr "Tabela da base de dados:"
+
+msgid "Table missing"
+msgstr "Tabela em falta"
+
+msgid "PHP Version:"
+msgstr "Versão do PHP:"
+
+msgid "WordPress Version:"
+msgstr "Versão do WordPress:"
+
+msgid "Asset Files:"
+msgstr "Ficheiros de recursos:"
+
+msgid "Loaded"
+msgstr "Carregados"
+
+msgid "Some asset files are missing"
+msgstr "Alguns ficheiros estão em falta"
+
+msgid "Repair Database Table"
+msgstr "Reparar tabela da base de dados"
+
+msgid "Save Settings"
+msgstr "Guardar definições"
+
+msgid "Select or Upload Image"
+msgstr "Selecionar ou carregar imagem"
+
+msgid "Use this image"
+msgstr "Usar esta imagem"
+
+msgid "Unauthorized."
+msgstr "Não autorizado."
+
+msgid "Invalid message parameters."
+msgstr "Parâmetros de mensagem inválidos."
+
+msgid "Failed to save message."
+msgstr "Falha ao guardar a mensagem."
+
+msgid "Invalid security token."
+msgstr "Token de segurança inválido."
+
+msgid "Session ID required."
+msgstr "ID de sessão obrigatório."
+
+msgid "Database error."
+msgstr "Erro de base de dados."
+
+msgid "Today · User: "
+msgstr "Hoje · Utilizador: "
+
+msgid "User"
+msgstr "Utilizador"
+
+msgid "Please wait..."
+msgstr "Por favor, aguarde..."
+
+msgid "Please select a conversation first."
+msgstr "Por favor, selecione primeiro uma conversa."
+
+msgid "Awaiting reply..."
+msgstr "A aguardar resposta..."
+
+msgid "No conversations found on this date."
+msgstr "Nenhuma conversa encontrada nesta data."
+
+msgid "Database table repaired and verified successfully!"
+msgstr "Tabela reparada e verificada com sucesso!"
+
+msgid "Failed to repair table."
+msgstr "Falha ao reparar a tabela."
+
+msgid "Working..."
+msgstr "A processar..."
+
+msgid "Recreating database table..."
+msgstr "A recriar tabela da base de dados..."
+
+msgid "Error sending message."
+msgstr "Erro ao enviar mensagem."
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "Caspian Live Chat foi atualizado para Live Chat - etaks."

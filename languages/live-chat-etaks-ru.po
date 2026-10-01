@@ -1,0 +1,315 @@
+# Translation for ru_RU - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "Онлайн-поддержка"
+
+msgid "Online Support"
+msgstr "Служба поддержки онлайн"
+
+msgid "Hello! How can we help you today?"
+msgstr "Здравствуйте! Чем мы можем вам помочь?"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "Спасибо за обращение! Пожалуйста, укажите ваше имя и контакты (email или телефон), и мы свяжемся с вами в ближайшее время."
+
+msgid "You"
+msgstr "Вы"
+
+msgid "Support"
+msgstr "Поддержка"
+
+msgid "Open Live Chat"
+msgstr "Открыть чат"
+
+msgid "Close Live Chat"
+msgstr "Закрыть чат"
+
+msgid "is typing..."
+msgstr "печатает..."
+
+msgid "Type your message..."
+msgstr "Введите сообщение..."
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+msgid "Live Chat"
+msgstr "Онлайн-чат"
+
+msgid "Conversations"
+msgstr "Диалоги"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+msgid "Live Chat Dashboard"
+msgstr "Панель онлайн-чата"
+
+msgid "Active"
+msgstr "Активные"
+
+msgid "Archived"
+msgstr "В архиве"
+
+msgid "Date:"
+msgstr "Дата:"
+
+msgid "All Dates"
+msgstr "Все даты"
+
+msgid "Search conversations..."
+msgstr "Поиск по диалогам..."
+
+msgid "User: "
+msgstr "Пользователь: "
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "No active conversations."
+msgstr "Нет активных диалогов."
+
+msgid "No archived conversations."
+msgstr "В архиве нет диалогов."
+
+msgid "Select a conversation"
+msgstr "Выберите диалог"
+
+msgid "Select a Conversation"
+msgstr "Выберите диалог"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "Выберите активный или архивный диалог из списка слева, чтобы просмотреть переписку и ответить."
+
+msgid "No active conversations"
+msgstr "Нет активных диалогов"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "Новые сообщения от посетителей будут появляться здесь в реальном времени."
+
+msgid "No archived conversations"
+msgstr "Архивных диалогов нет"
+
+msgid "Archived conversations will appear here."
+msgstr "Здесь отображаются завершенные диалоги."
+
+msgid "Archive"
+msgstr "В архив"
+
+msgid "Archive Conversation"
+msgstr "Архивировать диалог"
+
+msgid "Type your reply..."
+msgstr "Введите ответ..."
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Live Chat Settings"
+msgstr "Настройки онлайн-чата"
+
+msgid "Settings saved successfully!"
+msgstr "Настройки успешно сохранены!"
+
+msgid "Colors & Theme"
+msgstr "Цвета и тема"
+
+msgid "Brand Primary Color:"
+msgstr "Основной цвет бренда:"
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "Используется для плавающей кнопки, анимации, шапки чата и кнопки отправки."
+
+msgid "Color Presets:"
+msgstr "Готовые цвета:"
+
+msgid "Classic Red"
+msgstr "Классический красный"
+
+msgid "WhatsApp Green"
+msgstr "WhatsApp зеленый"
+
+msgid "Facebook Blue"
+msgstr "Facebook синий"
+
+msgid "Dark / Minimalist"
+msgstr "Темный / Минимализм"
+
+msgid "Purple"
+msgstr "Фиолетовый"
+
+msgid "Sky Blue"
+msgstr "Небесно-голубой"
+
+msgid "Icons & Avatars"
+msgstr "Иконки и аватары"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "Иконка плавающей кнопки (FAB):"
+
+msgid "FAB preview"
+msgstr "Предпросмотр FAB"
+
+msgid "Select / Upload Image"
+msgstr "Выбрать / Загрузить изображение"
+
+msgid "Reset to Default"
+msgstr "Сбросить по умолчанию"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "Иконка кнопки чата. Рекомендуется прозрачный PNG."
+
+msgid "Chat Header Profile Avatar:"
+msgstr "Аватар в шапке чата:"
+
+msgid "Avatar preview"
+msgstr "Предпросмотр аватара"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "Аватар оператора поддержки в верхней части чата."
+
+msgid "Texts & Messages"
+msgstr "Тексты и сообщения"
+
+msgid "Plugin & Widget Language:"
+msgstr "Язык плагина и чата:"
+
+msgid "Auto (Site Language)"
+msgstr "Авто (Язык сайта)"
+
+msgid "Load Language Defaults"
+msgstr "Применить язык"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "Автоматически заполняет заголовки и шаблоны сообщений на выбранном языке."
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "Устанавливает язык для всего плагина, включая панель управления и виджет для клиентов."
+
+msgid "Chat Title:"
+msgstr "Заголовок чата:"
+
+msgid "Subtitle / Online Status:"
+msgstr "Подзаголовок / Статус:"
+
+msgid "Welcome Message (on first open):"
+msgstr "Приветственное сообщение:"
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "Автоответ (после первого сообщения клиента):"
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "Отправляется автоматически новому посетителю для запроса контактов."
+
+msgid "System Health & Diagnostics"
+msgstr "Состояние системы и диагностика"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "Проверка базы данных, совместимости сервера и исправление ошибок."
+
+msgid "Database Table:"
+msgstr "Таблица базы данных:"
+
+msgid "Table missing"
+msgstr "Таблица отсутствует"
+
+msgid "PHP Version:"
+msgstr "Версия PHP:"
+
+msgid "WordPress Version:"
+msgstr "Версия WordPress:"
+
+msgid "Asset Files:"
+msgstr "Файлы ресурсов:"
+
+msgid "Loaded"
+msgstr "Загружены"
+
+msgid "Some asset files are missing"
+msgstr "Некоторые файлы отсутствуют"
+
+msgid "Repair Database Table"
+msgstr "Восстановить таблицу БД"
+
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+msgid "Select or Upload Image"
+msgstr "Выбрать или загрузить изображение"
+
+msgid "Use this image"
+msgstr "Использовать это изображение"
+
+msgid "Unauthorized."
+msgstr "Не авторизован."
+
+msgid "Invalid message parameters."
+msgstr "Неверные параметры сообщения."
+
+msgid "Failed to save message."
+msgstr "Не удалось сохранить сообщение."
+
+msgid "Invalid security token."
+msgstr "Недействительный токен безопасности."
+
+msgid "Session ID required."
+msgstr "Требуется идентификатор сессии."
+
+msgid "Database error."
+msgstr "Ошибка базы данных."
+
+msgid "Today · User: "
+msgstr "Сегодня · Пользователь: "
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+msgid "Please select a conversation first."
+msgstr "Пожалуйста, сначала выберите диалог."
+
+msgid "Awaiting reply..."
+msgstr "Ожидает ответа..."
+
+msgid "No conversations found on this date."
+msgstr "На эту дату диалогов не найдено."
+
+msgid "Database table repaired and verified successfully!"
+msgstr "Таблица базы данных успешно восстановлена и проверена!"
+
+msgid "Failed to repair table."
+msgstr "Не удалось восстановить таблицу."
+
+msgid "Working..."
+msgstr "Выполняется..."
+
+msgid "Recreating database table..."
+msgstr "Пересоздание таблицы базы данных..."
+
+msgid "Error sending message."
+msgstr "Ошибка при отправке сообщения."
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "Caspian Live Chat успешно обновлен до Live Chat - etaks."

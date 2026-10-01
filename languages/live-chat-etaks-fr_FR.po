@@ -1,0 +1,315 @@
+# Translation for fr_FR - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "Support en Direct"
+
+msgid "Online Support"
+msgstr "Support en ligne"
+
+msgid "Hello! How can we help you today?"
+msgstr "Bonjour ! Comment pouvons-nous vous aider aujourd'hui ?"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "Merci de nous avoir contactés ! Veuillez indiquer votre nom et vos coordonnées (e-mail ou téléphone), et notre équipe vous répondra rapidement."
+
+msgid "You"
+msgstr "Vous"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Open Live Chat"
+msgstr "Ouvrir le chat en direct"
+
+msgid "Close Live Chat"
+msgstr "Fermer le chat en direct"
+
+msgid "is typing..."
+msgstr "écrit..."
+
+msgid "Type your message..."
+msgstr "Écrivez votre message..."
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+msgid "Live Chat"
+msgstr "Chat en Direct"
+
+msgid "Conversations"
+msgstr "Conversations"
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette page."
+
+msgid "Live Chat Dashboard"
+msgstr "Tableau de bord du Chat"
+
+msgid "Active"
+msgstr "Actives"
+
+msgid "Archived"
+msgstr "Archivées"
+
+msgid "Date:"
+msgstr "Date :"
+
+msgid "All Dates"
+msgstr "Toutes les dates"
+
+msgid "Search conversations..."
+msgstr "Rechercher des conversations..."
+
+msgid "User: "
+msgstr "Utilisateur : "
+
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgid "No active conversations."
+msgstr "Aucune conversation active."
+
+msgid "No archived conversations."
+msgstr "Aucune conversation archivée."
+
+msgid "Select a conversation"
+msgstr "Sélectionnez une conversation"
+
+msgid "Select a Conversation"
+msgstr "Sélectionnez une conversation"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "Choisissez une conversation dans la barre latérale pour afficher l'historique et répondre."
+
+msgid "No active conversations"
+msgstr "Aucune conversation active"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "Les messages des visiteurs apparaîtront ici en direct."
+
+msgid "No archived conversations"
+msgstr "Aucune conversation archivée"
+
+msgid "Archived conversations will appear here."
+msgstr "Les conversations archivées s'affichent ici."
+
+msgid "Archive"
+msgstr "Archiver"
+
+msgid "Archive Conversation"
+msgstr "Archiver la conversation"
+
+msgid "Type your reply..."
+msgstr "Écrivez votre réponse..."
+
+msgid "Send"
+msgstr "Envoyer"
+
+msgid "Live Chat Settings"
+msgstr "Réglages du Chat en Direct"
+
+msgid "Settings saved successfully!"
+msgstr "Réglages enregistrés avec succès !"
+
+msgid "Colors & Theme"
+msgstr "Couleurs & Thème"
+
+msgid "Brand Primary Color:"
+msgstr "Couleur principale de la marque :"
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "Utilisé pour le bouton flottant, l'anneau de pulsation, l'en-tête et le bouton d'envoi."
+
+msgid "Color Presets:"
+msgstr "Couleurs prédéfinies :"
+
+msgid "Classic Red"
+msgstr "Rouge classique"
+
+msgid "WhatsApp Green"
+msgstr "Vert WhatsApp"
+
+msgid "Facebook Blue"
+msgstr "Bleu Facebook"
+
+msgid "Dark / Minimalist"
+msgstr "Sombre / Minimaliste"
+
+msgid "Purple"
+msgstr "Violet"
+
+msgid "Sky Blue"
+msgstr "Bleu ciel"
+
+msgid "Icons & Avatars"
+msgstr "Icônes & Avatars"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "Icône du bouton flottant (FAB) :"
+
+msgid "FAB preview"
+msgstr "Aperçu FAB"
+
+msgid "Select / Upload Image"
+msgstr "Choisir / Téléverser une image"
+
+msgid "Reset to Default"
+msgstr "Réinitialiser par défaut"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "Icône affichée dans le bouton flottant. PNG transparent recommandé."
+
+msgid "Chat Header Profile Avatar:"
+msgstr "Avatar dans l'en-tête du chat :"
+
+msgid "Avatar preview"
+msgstr "Aperçu de l'avatar"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "Image affichée dans l'en-tête à côté du titre du support."
+
+msgid "Texts & Messages"
+msgstr "Textes & Messages"
+
+msgid "Plugin & Widget Language:"
+msgstr "Langue du plugin et du chat :"
+
+msgid "Auto (Site Language)"
+msgstr "Auto (Langue du site)"
+
+msgid "Load Language Defaults"
+msgstr "Charger les valeurs par défaut"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "Remplit automatiquement les messages dans la langue sélectionnée."
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "Définit la langue pour l'ensemble du plugin."
+
+msgid "Chat Title:"
+msgstr "Titre du chat :"
+
+msgid "Subtitle / Online Status:"
+msgstr "Sous-titre / Statut en ligne :"
+
+msgid "Welcome Message (on first open):"
+msgstr "Message de bienvenue :"
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "Réponse automatique immédiate :"
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "Envoyé automatiquement dès qu'un nouveau visiteur envoie un message."
+
+msgid "System Health & Diagnostics"
+msgstr "État du système et diagnostics"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "Vérifiez la table de base de données et résolvez les erreurs."
+
+msgid "Database Table:"
+msgstr "Table de base de données :"
+
+msgid "Table missing"
+msgstr "Table introuvable"
+
+msgid "PHP Version:"
+msgstr "Version PHP :"
+
+msgid "WordPress Version:"
+msgstr "Version WordPress :"
+
+msgid "Asset Files:"
+msgstr "Fichiers de ressources :"
+
+msgid "Loaded"
+msgstr "Chargés"
+
+msgid "Some asset files are missing"
+msgstr "Certains fichiers sont manquants"
+
+msgid "Repair Database Table"
+msgstr "Réparer la table de base de données"
+
+msgid "Save Settings"
+msgstr "Enregistrer les réglages"
+
+msgid "Select or Upload Image"
+msgstr "Sélectionner ou téléverser"
+
+msgid "Use this image"
+msgstr "Utiliser cette image"
+
+msgid "Unauthorized."
+msgstr "Non autorisé."
+
+msgid "Invalid message parameters."
+msgstr "Paramètres de message invalides."
+
+msgid "Failed to save message."
+msgstr "Impossible d'enregistrer le message."
+
+msgid "Invalid security token."
+msgstr "Jeton de sécurité invalide."
+
+msgid "Session ID required."
+msgstr "Identifiant de session requis."
+
+msgid "Database error."
+msgstr "Erreur de base de données."
+
+msgid "Today · User: "
+msgstr "Aujourd'hui · Utilisateur : "
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
+
+msgid "Please select a conversation first."
+msgstr "Veuillez d'abord sélectionner une conversation."
+
+msgid "Awaiting reply..."
+msgstr "En attente de réponse..."
+
+msgid "No conversations found on this date."
+msgstr "Aucune conversation trouvée à cette date."
+
+msgid "Database table repaired and verified successfully!"
+msgstr "Table de base de données réparée avec succès !"
+
+msgid "Failed to repair table."
+msgstr "Échec de la réparation."
+
+msgid "Working..."
+msgstr "En cours..."
+
+msgid "Recreating database table..."
+msgstr "Recréation de la table de base de données..."
+
+msgid "Error sending message."
+msgstr "Erreur lors de l'envoi du message."
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "Caspian Live Chat a été mis à niveau vers Live Chat - etaks."

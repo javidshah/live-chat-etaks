@@ -1,0 +1,315 @@
+# Translation for ja - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "ライブサポート"
+
+msgid "Online Support"
+msgstr "オンラインサポート"
+
+msgid "Hello! How can we help you today?"
+msgstr "こんにちは！どのようなご用件でしょうか？"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "お問い合わせありがとうございます。お名前とご連絡先（メールまたはお電話番号）をお知らせください。折り返しご連絡いたします。"
+
+msgid "You"
+msgstr "あなた"
+
+msgid "Support"
+msgstr "サポート"
+
+msgid "Open Live Chat"
+msgstr "チャットを開く"
+
+msgid "Close Live Chat"
+msgstr "チャットを閉じる"
+
+msgid "is typing..."
+msgstr "入力中..."
+
+msgid "Type your message..."
+msgstr "メッセージを入力..."
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "Send Message"
+msgstr "送信"
+
+msgid "Live Chat"
+msgstr "ライブチャット"
+
+msgid "Conversations"
+msgstr "会話一覧"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+msgid "Live Chat Dashboard"
+msgstr "ライブチャット管理画面"
+
+msgid "Active"
+msgstr "進行中"
+
+msgid "Archived"
+msgstr "アーカイブ済み"
+
+msgid "Date:"
+msgstr "日付:"
+
+msgid "All Dates"
+msgstr "すべての日付"
+
+msgid "Search conversations..."
+msgstr "会話を検索..."
+
+msgid "User: "
+msgstr "ユーザー: "
+
+msgid "Today"
+msgstr "今日"
+
+msgid "No active conversations."
+msgstr "進行中の会話はありません。"
+
+msgid "No archived conversations."
+msgstr "アーカイブされた会話はありません。"
+
+msgid "Select a conversation"
+msgstr "会話を選択してください"
+
+msgid "Select a Conversation"
+msgstr "会話を選択してください"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "サイドバーから会話を選択してメッセージ履歴を表示し、返信してください。"
+
+msgid "No active conversations"
+msgstr "進行中の会話はありません"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "お客様からの新しいメッセージがここにリアルタイムで表示されます。"
+
+msgid "No archived conversations"
+msgstr "アーカイブされた会話はありません"
+
+msgid "Archived conversations will appear here."
+msgstr "過去のアーカイブされた会話がここに表示されます。"
+
+msgid "Archive"
+msgstr "アーカイブ"
+
+msgid "Archive Conversation"
+msgstr "会話をアーカイブ"
+
+msgid "Type your reply..."
+msgstr "返信を入力..."
+
+msgid "Send"
+msgstr "送信"
+
+msgid "Live Chat Settings"
+msgstr "ライブチャット設定"
+
+msgid "Settings saved successfully!"
+msgstr "設定が正常に保存されました。"
+
+msgid "Colors & Theme"
+msgstr "カラーとテーマ"
+
+msgid "Brand Primary Color:"
+msgstr "ブランドメインカラー:"
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "フローティングボタン、ヘッダー、送信ボタンに使用されます。"
+
+msgid "Color Presets:"
+msgstr "プリセットカラー:"
+
+msgid "Classic Red"
+msgstr "クラシックレッド"
+
+msgid "WhatsApp Green"
+msgstr "WhatsAppグリーン"
+
+msgid "Facebook Blue"
+msgstr "Facebookブルー"
+
+msgid "Dark / Minimalist"
+msgstr "ダーク / ミニマリスト"
+
+msgid "Purple"
+msgstr "パープル"
+
+msgid "Sky Blue"
+msgstr "スカイブルー"
+
+msgid "Icons & Avatars"
+msgstr "アイコンとアバター"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "フローティングボタンアイコン (FAB):"
+
+msgid "FAB preview"
+msgstr "FABアイコンプレビュー"
+
+msgid "Select / Upload Image"
+msgstr "画像を選択 / アップロード"
+
+msgid "Reset to Default"
+msgstr "デフォルトに戻す"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "ボタン内に表示されるアイコン。透過PNG推奨。"
+
+msgid "Chat Header Profile Avatar:"
+msgstr "チャットヘッダーアバター:"
+
+msgid "Avatar preview"
+msgstr "アバタープレビュー"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "サポート名の横に表示されるアバター画像。"
+
+msgid "Texts & Messages"
+msgstr "テキストとメッセージ"
+
+msgid "Plugin & Widget Language:"
+msgstr "プラグインと言語設定:"
+
+msgid "Auto (Site Language)"
+msgstr "自動 (サイト言語)"
+
+msgid "Load Language Defaults"
+msgstr "言語デフォルトを適用"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "選択した言語でタイトル、歓迎メッセージ、自動返信を自動入力します。"
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "管理画面および訪問者用チャットを含むプラグイン全体の言語を設定します。"
+
+msgid "Chat Title:"
+msgstr "チャットタイトル:"
+
+msgid "Subtitle / Online Status:"
+msgstr "サブタイトル / オンライン状況:"
+
+msgid "Welcome Message (on first open):"
+msgstr "ウェルカムメッセージ:"
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "自動返信メッセージ:"
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "訪問者が最初のメッセージを送信した際に自動送信されます。"
+
+msgid "System Health & Diagnostics"
+msgstr "システム状態と診断"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "データベーステーブルの正常性と互換性を確認します。"
+
+msgid "Database Table:"
+msgstr "データベーステーブル:"
+
+msgid "Table missing"
+msgstr "テーブルが存在しません"
+
+msgid "PHP Version:"
+msgstr "PHPバージョン:"
+
+msgid "WordPress Version:"
+msgstr "WordPressバージョン:"
+
+msgid "Asset Files:"
+msgstr "アセットファイル:"
+
+msgid "Loaded"
+msgstr "読み込み完了"
+
+msgid "Some asset files are missing"
+msgstr "一部のファイルが見つかりません"
+
+msgid "Repair Database Table"
+msgstr "データベーステーブルを修復"
+
+msgid "Save Settings"
+msgstr "設定を保存"
+
+msgid "Select or Upload Image"
+msgstr "画像を選択またはアップロード"
+
+msgid "Use this image"
+msgstr "この画像を使用"
+
+msgid "Unauthorized."
+msgstr "権限がありません。"
+
+msgid "Invalid message parameters."
+msgstr "メッセージのパラメータが無効です。"
+
+msgid "Failed to save message."
+msgstr "メッセージの保存に失敗しました。"
+
+msgid "Invalid security token."
+msgstr "セキュリティトークンが無効です。"
+
+msgid "Session ID required."
+msgstr "セッションIDが必要です。"
+
+msgid "Database error."
+msgstr "データベースエラー。"
+
+msgid "Today · User: "
+msgstr "今日 · ユーザー: "
+
+msgid "User"
+msgstr "ユーザー"
+
+msgid "Please wait..."
+msgstr "お待ちください..."
+
+msgid "Please select a conversation first."
+msgstr "最初に会話を選択してください。"
+
+msgid "Awaiting reply..."
+msgstr "返信待ち..."
+
+msgid "No conversations found on this date."
+msgstr "この日付の会話は見つかりませんでした。"
+
+msgid "Database table repaired and verified successfully!"
+msgstr "データベーステーブルが正常に修復されました。"
+
+msgid "Failed to repair table."
+msgstr "テーブルの修復に失敗しました。"
+
+msgid "Working..."
+msgstr "処理中..."
+
+msgid "Recreating database table..."
+msgstr "テーブルを再作成中..."
+
+msgid "Error sending message."
+msgstr "メッセージ送信エラー。"
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "Caspian Live Chat は Live Chat - etaks に正常に更新されました。"

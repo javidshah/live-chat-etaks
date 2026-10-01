@@ -1,0 +1,315 @@
+# Translation for uz_UZ - Live Chat - etaks
+# Copyright (C) 2026 etaks.az
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat - etaks 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-etaks\n"
+"Last-Translator: etaks.az <info@etaks.az>\n"
+"Language: uz_UZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: live-chat-etaks\n"
+
+msgid "Live Chat - etaks"
+msgstr "Live Chat - etaks"
+
+msgid "Live Support"
+msgstr "Jonli muloqot"
+
+msgid "Online Support"
+msgstr "Onlayn yordam"
+
+msgid "Hello! How can we help you today?"
+msgstr "Assalomu alaykum! Sizga qanday yordam bera olamiz?"
+
+msgid "Thank you for reaching out! Please provide your name and contact details (email or phone number), and our team will get back to you shortly."
+msgstr "Murojaatingiz uchun tashakkur! Iltimos, ismingiz va aloqa ma'lumotlaringizni (elektron pochta yoki telefon) qoldiring, tez orada siz bilan bog'lanamiz."
+
+msgid "You"
+msgstr "Siz"
+
+msgid "Support"
+msgstr "Qo'llab-quvvatlash"
+
+msgid "Open Live Chat"
+msgstr "Chatni ochish"
+
+msgid "Close Live Chat"
+msgstr "Chatni yopish"
+
+msgid "is typing..."
+msgstr "yozmoqda..."
+
+msgid "Type your message..."
+msgstr "Xabaringizni yozing..."
+
+msgid "Message"
+msgstr "Xabar"
+
+msgid "Send Message"
+msgstr "Xabarni yuborish"
+
+msgid "Live Chat"
+msgstr "Jonli muloqot"
+
+msgid "Conversations"
+msgstr "Suhbatlar"
+
+msgid "Settings"
+msgstr "Sozlamalar"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Ushbu sahifaga kirish uchun ruxsatingiz yetarli emas."
+
+msgid "Live Chat Dashboard"
+msgstr "Jonli muloqot paneli"
+
+msgid "Active"
+msgstr "Faol"
+
+msgid "Archived"
+msgstr "Arxiv"
+
+msgid "Date:"
+msgstr "Sana:"
+
+msgid "All Dates"
+msgstr "Barcha sanalar"
+
+msgid "Search conversations..."
+msgstr "Suhbatlarni qidirish..."
+
+msgid "User: "
+msgstr "Foydalanuvchi: "
+
+msgid "Today"
+msgstr "Bugun"
+
+msgid "No active conversations."
+msgstr "Faol suhbatlar yo'q."
+
+msgid "No archived conversations."
+msgstr "Arxivlangan suhbatlar yo'q."
+
+msgid "Select a conversation"
+msgstr "Suhbatni tanlang"
+
+msgid "Select a Conversation"
+msgstr "Suhbatni tanlang"
+
+msgid "Choose an active or archived conversation from the sidebar to view chat history and reply."
+msgstr "Xabarlar tarixini ko'rish va javob berish uchun chapdagi ro'yxatdan suhbatni tanlang."
+
+msgid "No active conversations"
+msgstr "Faol suhbatlar mavjud emas"
+
+msgid "New customer messages will appear here in real-time."
+msgstr "Yangi xabarlar bu yerda real vaqt rejimida paydo bo'ladi."
+
+msgid "No archived conversations"
+msgstr "Arxivlangan suhbatlar yo'q"
+
+msgid "Archived conversations will appear here."
+msgstr "Arxivlangan suhbatlar shu yerda saqlanadi."
+
+msgid "Archive"
+msgstr "Arxivlash"
+
+msgid "Archive Conversation"
+msgstr "Suhbatni arxivlash"
+
+msgid "Type your reply..."
+msgstr "Javobingizni yozing..."
+
+msgid "Send"
+msgstr "Yuborish"
+
+msgid "Live Chat Settings"
+msgstr "Jonli muloqot sozlamalari"
+
+msgid "Settings saved successfully!"
+msgstr "Sozlamalar muvaffaqiyatli saqlandi!"
+
+msgid "Colors & Theme"
+msgstr "Ranglar va mavzu"
+
+msgid "Brand Primary Color:"
+msgstr "Brend asosiy rangi:"
+
+msgid "Used for the floating chat button, pulsating ring, header, and submit button."
+msgstr "Qalqib chiquvchi tugma, sarlavha va yuborish tugmasi uchun ishlatiladi."
+
+msgid "Color Presets:"
+msgstr "Tayyor ranglar:"
+
+msgid "Classic Red"
+msgstr "Klassik qizil"
+
+msgid "WhatsApp Green"
+msgstr "WhatsApp yashil"
+
+msgid "Facebook Blue"
+msgstr "Facebook ko'k"
+
+msgid "Dark / Minimalist"
+msgstr "Qora / Minimalist"
+
+msgid "Purple"
+msgstr "Binafsharang"
+
+msgid "Sky Blue"
+msgstr "Moviy"
+
+msgid "Icons & Avatars"
+msgstr "Belgilar va avatarlar"
+
+msgid "Floating Chat Button Icon (FAB):"
+msgstr "Suzuvchi tugma belgisi (FAB):"
+
+msgid "FAB preview"
+msgstr "FAB oldindan ko'rish"
+
+msgid "Select / Upload Image"
+msgstr "Rasm tanlash / Yuklash"
+
+msgid "Reset to Default"
+msgstr "Boshlang'ich holatga qaytarish"
+
+msgid "Icon displayed inside the floating action button. Transparent PNG recommended."
+msgstr "Suzuvchi tugma ichidagi belgi. Shaffof PNG tavsiya etiladi."
+
+msgid "Chat Header Profile Avatar:"
+msgstr "Suhbat sarlavhasi avatari:"
+
+msgid "Avatar preview"
+msgstr "Avatar oldindan ko'rish"
+
+msgid "Avatar image displayed in the header next to the support title."
+msgstr "Suhbat sarlavhasida ko'rsatiladigan rasm."
+
+msgid "Texts & Messages"
+msgstr "Matnlar va xabarlar"
+
+msgid "Plugin & Widget Language:"
+msgstr "Plagin va chat tili:"
+
+msgid "Auto (Site Language)"
+msgstr "Avtomatik (Sayt tili)"
+
+msgid "Load Language Defaults"
+msgstr "Tilni qo'llash"
+
+msgid "Auto-fill title, subtitle, welcome, and reply messages in the selected language."
+msgstr "Tanlangan tildagi standart matnlarni avtomatik to'ldiradi."
+
+msgid "Sets the language for the entire plugin, including admin dashboard and visitor chat widget. Supports 11 languages with RTL for Arabic."
+msgstr "Admin paneli va sayt chati uchun tilni belgilaydi."
+
+msgid "Chat Title:"
+msgstr "Chat sarlavhasi:"
+
+msgid "Subtitle / Online Status:"
+msgstr "Quyi sarlavha / Holat:"
+
+msgid "Welcome Message (on first open):"
+msgstr "Kutib olish xabari:"
+
+msgid "Auto-Reply (sent immediately after visitor's first message):"
+msgstr "Avto-javob:"
+
+msgid "Sent automatically once a new visitor sends their first message to collect contact information."
+msgstr "Foydalanuvchi birinchi xabarni yozganda aloqa ma'lumotlarini so'rash uchun avtomatik yuboriladi."
+
+msgid "System Health & Diagnostics"
+msgstr "Tizim holati va diagnostika"
+
+msgid "Verify database table integrity, server compatibility, and resolve potential issues."
+msgstr "Ma'lumotlar bazasi va server mosligini tekshirish."
+
+msgid "Database Table:"
+msgstr "Ma'lumotlar bazasi jadvali:"
+
+msgid "Table missing"
+msgstr "Jadval mavjud emas"
+
+msgid "PHP Version:"
+msgstr "PHP versiyasi:"
+
+msgid "WordPress Version:"
+msgstr "WordPress versiyasi:"
+
+msgid "Asset Files:"
+msgstr "Fayllar:"
+
+msgid "Loaded"
+msgstr "Yuklandi"
+
+msgid "Some asset files are missing"
+msgstr "Ba'zi fayllar yetishmayapti"
+
+msgid "Repair Database Table"
+msgstr "Bazani qayta tiklash"
+
+msgid "Save Settings"
+msgstr "Sozlamalarni saqlash"
+
+msgid "Select or Upload Image"
+msgstr "Rasm tanlang yoki yuklang"
+
+msgid "Use this image"
+msgstr "Ushbu rasmdan foydalanish"
+
+msgid "Unauthorized."
+msgstr "Ruxsatsiz urinish."
+
+msgid "Invalid message parameters."
+msgstr "Noto'g'ri xabar parametrlari."
+
+msgid "Failed to save message."
+msgstr "Xabarni saqlab bo'lmadi."
+
+msgid "Invalid security token."
+msgstr "Xavfsizlik kodi yaroqsiz."
+
+msgid "Session ID required."
+msgstr "Sessiya ID talab qilinadi."
+
+msgid "Database error."
+msgstr "Ma'lumotlar bazasi xatosi."
+
+msgid "Today · User: "
+msgstr "Bugun · Foydalanuvchi: "
+
+msgid "User"
+msgstr "Foydalanuvchi"
+
+msgid "Please wait..."
+msgstr "Iltimos, kuting..."
+
+msgid "Please select a conversation first."
+msgstr "Iltimos, avval suhbatni tanlang."
+
+msgid "Awaiting reply..."
+msgstr "Javob kutilmoqda..."
+
+msgid "No conversations found on this date."
+msgstr "Ushbu sanada suhbatlar topilmadi."
+
+msgid "Database table repaired and verified successfully!"
+msgstr "Ma'lumotlar bazasi jadvali muvaffaqiyatli tiklandi!"
+
+msgid "Failed to repair table."
+msgstr "Jadvalni tiklash muvaffaqiyatsiz tugadi."
+
+msgid "Working..."
+msgstr "Ishlamoqda..."
+
+msgid "Recreating database table..."
+msgstr "Jadval qayta tuzilmoqda..."
+
+msgid "Error sending message."
+msgstr "Xabar yuborishda xatolik yuz berdi."
+
+msgid "Caspian Live Chat has been upgraded to Live Chat - etaks."
+msgstr "Caspian Live Chat Live Chat - etaks versiyasiga yangilandi."
